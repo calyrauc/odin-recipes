@@ -2,13 +2,33 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p,
+h6,
 h1{
     text-align: center;
+    white-space: nowrap;
 }
+
 
 .center{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.ingredients{
+    color: green;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.steps{
+    color: blueviolet;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
